@@ -1,37 +1,125 @@
-/*******TAG SELECTORS*******/
-
 body {
-  background-color: #FDF6EC;
-}
-hr {
-  background-color: white;
-  border-style: none;
-  border-top-style: dotted;
-  border-color: green;
-  border-width: 5px;
-  width: 10%;
-}
-h1 {
-  color: #DAB88B;
-}
-h3 {
-  color: #DAB88B;
+  font-family: 'Montserrat-light', sans-serif;
+  text-align: center;
 }
 
-label {
-  color: grey;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
 }
-li {
-  color: grey;
-}
+
 p {
-  color: grey;
+  color: #8f8f8f;
+  font-size: 1.2rem;
 }
 
-thead {
-  color: green;
+/* HEADINGS */
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
-table {
-  color: grey;
+/* CONTAINERS */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* SECTIONS */
+.colored-section {
+  background-color: black;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+/* Table */
+.table-skills {
+  margin-top: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.table-education {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE SECTION */
+/* Title Image */
+.title-image {
+  width: 20%;
+  border-radius: 10%;
+  position: absolute;
+  right: 17%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.image-carousel {
+  width: 65%;
+  border-radius: 5%;
+  margin: 20px;
+}
+
+.my-work-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.showcase {
+  height: 100%;
+}
+
+/* HOBBIES SECTION */
+#hobbies {
+  padding: 100px;
+}
+
+/* FOOTER */
+.footer-icon {
+  color: #8f8f8f;
+  margin: 20px 10px;
+  font-size: 2rem;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    width: 60%;
+  }
 }
