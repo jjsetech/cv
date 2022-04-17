@@ -1,99 +1,193 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
 <head>
   <meta charset="utf-8">
-  <title>Jeronimo's Personal Website</title>
+  <meta name="description" content="JJSE Tech Developer">
+  <meta name="keywords" content="Programming, Development, Technology, Tutorial">
+  <meta name="author" content="Jeronimo Junior">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeronimo Junior</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/7b2c9feb1c.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Stylesheet & Script -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <!-- Personal CSS Stylesheet -->
   <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="jeronimo.png" alt="jeronimo junior profile picture"></td>
-      <td><h1>Jeronimo Junior</h1>
-      <p><em>Founder and CTO of the <strong><a href="https://jjstudioentertainment.com">JJ Studio Entertainment.</a></strong></em></p>
-      <p>I am Mobile and Web Developer. I love music and computer.</p></td>
-    </tr>
-  </table>
 
+  <section class="colored-section" id="title">
 
-  <hr>
-  <h3>Education</h3>
+    <div class="container-fluid">
+      <!-- Nav Bar -->
 
-  <ul>
-    <li><a href="https://apps.apple.com/us/app/pandas-adventure/id1516693322?ls=1">iOS App Development</a></li>
-    <li><a href="https://play.google.com/store/apps/details?id=com.jjstudioentertainment.pandaadventure">Flutter App Development</a></li>
-    <li><a href="https://jjstudioentertainment.com/downloads">Unity Engine Game Development</a></li>
-    <li>Python Software Development</li>
-    <li>Web Development</li>
-  </ul>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="https://github.com/jjsetech">jjsetech</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education & Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#my-works">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-  <hr>
-  <h3>Working Experience</h3>
+      <!-- Title -->
 
-    <table cellspacing="10">
-      <thead>
-        <th>Dates</th>
-        <th>Work</th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2002-2010</td>
-          <td>Canon Finetech - Printer Assembly (Japan)</td>
-        </tr>
-        <tr>
-          <td>2010-2014</td>
-          <td>Musical Instruments Maintenance & Manufacturing (Brazil)</td>
-        </tr>
-        <tr>
-          <td>2014-2019</td>
-          <td>Aisin AI-A - Car Transmission Assembly (Japan)</td>
-        </tr>
-        <tr>
-          <td>2019-2020</td>
-          <td>JTEKT - Propeller Shaft Assembly (Japan)</td>
-        </tr>
-        <tr>
-          <td>2020-2021</td>
-          <td>Futaba - Muffler Assembly & Manufactoring (Japan)</td>
-        </tr>
-      </tbody>
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Welcome!<br>I am Mobile and Web Developer.<br>I love to code and learn new skills.</h1>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/profile.jpeg" alt="iphone-mockup">
+        </div>
+      </div>
 
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-      <tbody>
-        <tr>
-          <td>iOS Development</td>
-          <td>⭐️⭐️⭐️⭐️⭐️</td>
-          <td>Flutter Development</td>
-          <td>⭐️⭐️⭐️⭐️⭐️</td>
-        </tr>
-        <tr>
-          <td>Web Development</td>
-          <td>⭐️⭐️⭐️⭐️</td>
-          <td>Unity Engine Development</td>
-          <td>⭐️⭐️⭐️⭐️</td>
-        </tr>
-        <tr>
-          <td>Unreal Engine Development</td>
-          <td>⭐️⭐️⭐️</td>
-          <td>Python Development</td>
-          <td>⭐️⭐️</td>
-        </tr>
-      </tbody>
-    </table>
-    <br>
-    <hr>
+    </div>
 
-  <a href="hobbies.html">My Hobbies</a>
-  <br>
-  <br>
-  <a href="contactme.html">Contact Me</a>
+  </section>
 
+  <!-- Features -->
+
+  <section class="white-section" id="education">
+    <div class="container-fluid">
+      <div class="row">
+        <h3>Education</h3>
+        <table class="table-education" cellspacing="10">
+          <tbody>
+            <tr>
+              <td>iOS App Development</td>
+              <td>Flutter App Development</td>
+            </tr>
+            <tr>
+              <td>Web Development</td>
+              <td>Unity Engine Game Development</td>
+            </tr>
+            <tr>
+              <td>Unreal Engine Game Development</td>
+              <td>Python Software Development</td>
+            </tr>
+            <tr>
+              <td>Computer Hardware Maintenance</td>
+              <td>Cobol Programming Language</td>
+            </tr>
+            <tr>
+              <td>Microsoft Office</td>
+              <td>Photoshop</td>
+            </tr>
+            <tr>
+              <td>Coreldraw</td>
+              <td>Linux</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <div>
+    <section class="colored-section" id="cta">
+      <div class="container-fluid row">
+        <h3>Skills</h3>
+        <table class="table-skills" cellspacing="10">
+          <tbody>
+            <tr>
+              <td>iOS Development</td>
+              <td>⭐️⭐️⭐️⭐️⭐️</td>
+              <td>Flutter Development</td>
+              <td>⭐️⭐️⭐️⭐️⭐️</td>
+            </tr>
+            <tr>
+              <td>Web Development</td>
+              <td>⭐️⭐️⭐️⭐️</td>
+              <td>Unity Engine Development</td>
+              <td>⭐️⭐️⭐️⭐️</td>
+            </tr>
+            <tr>
+              <td>Unreal Engine Development</td>
+              <td>⭐️⭐️⭐️</td>
+              <td>Python Development</td>
+              <td>⭐️⭐️</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <!-- Hobbies -->
+  <section class="white-section" id="hobbies">
+
+    <h3>Hobbies</h3>
+    <p>I love music. I like to play guitar.</p>
+    <p>I love games. When have free time like to play games.</p>
+    <p>I love movie. Always watching movies to get some inspirations.</p>
+
+  </section>
+
+  <!-- Portfolio -->
+
+  <section class="colored-section" id="my-works">
+    <div id="showcase-carousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid showcase">
+          <img class="image-carousel" src="images/pandagame.jpeg" alt="panda-image">
+          <h4 class="my-work-text">My 2D platform game made in Unity. <br>(Available for iOS & Android)</h4>
+          <a href="https://apps.apple.com/us/app/pandas-adventure/id1516693322?ls=1" target="_blank"><button type="button" class="btn btn-lg btn-outline-light download-button"><i class="fa-brands fa-apple"></i> Download for iPhone</button></a>
+          <a href="https://play.google.com/store/apps/details?id=com.jjstudioentertainment.pandaadventure" target="_blank"><button type="button" class="btn btn-lg btn-outline-light download-button"><i class="fa-brands fa-google-play"></i> Download
+              for Android</button></a>
+        </div>
+        <div class="carousel-item container-fluid showcase">
+          <img class="image-carousel" src="images/website.jpeg" alt="website-image">
+          <h4 class="my-work-text">JJ Studio Entertainment official website.<br> (Portuguese language only)</h4>
+          <a href="https://jjstudioentertainment.com/" target="_blank"><button type="button" class="btn btn-lg btn-outline-light download-button">Visit Official Website</button></a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#showcase-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#showcase-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+  <div>
+    <!-- Footer -->
+
+    <footer class="white-section" id="footer">
+      <div class="container-fluid">
+        <a href="https://jjstudioentertainment.com/" target="_blank"><i class="footer-icon fa-solid fa-globe"></i></a>
+        <a href="https://www.youtube.com/channel/UCyMXHsEdQCPy3DoEN532qRw" target="_blank"><i class="footer-icon fa-brands fa-youtube"></i></a>
+        <a href="https://twitter.com/jjsetech" target="_blank"><i class="footer-icon fa-brands fa-twitter"></i></a>
+        <a href="https://www.facebook.com/jjsetech" target="_blank"><i class="footer-icon fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/jjsetech" target="_blank"><i class="footer-icon fa-brands fa-instagram"></i></a>
+        <a href="mailto:support@jjstudioentertainment.com?subject=Github Webpage Contact"><i class="footer-icon fa-solid fa-envelope"></i></a>
+        <p>© JJ Studio Entertainment 2022</p>
+      </div>
+    </footer>
+  </div>
 
 </body>
 
